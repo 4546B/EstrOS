@@ -1,0 +1,9 @@
+body{
+	background-image: url("/estrOS/img/ikeas-blahaj-shark.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+title{
+	padding: 0px 200px;
+}
