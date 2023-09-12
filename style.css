@@ -30,3 +30,6 @@ body{
 .btn:hover {
   background-color: Pink;
 }
+a {
+	color: white;
+}
