@@ -17,6 +17,9 @@ body{
 .btn {
   background-color: DeepPink;
   border: none;
+  float: right;
+  position: absolute;
+  left: 5rem;
   color: white;
   padding: 12px 30px;
   cursor: pointer;
