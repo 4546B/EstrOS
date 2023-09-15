@@ -54,7 +54,8 @@ a {
   display: none;
   position: absolute;
   background-color: pink;
-  min-width: 160px;
+
+}  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -78,3 +79,4 @@ a {
 /* Change the background color of the dropdown button when the dropdown content is shown*/
 .dropdown:hover .dropbtn {
 	background-color: deeppink;
+}
