@@ -1,0 +1,83 @@
+body{
+	background-image: url("img/lara-hughes-blahaj-spin-compressed.gif"), url("img/trans.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -300px, top;
+
+}
+
+#title{
+	padding: 0px 600px;
+}
+
+#intro{
+	padding: 10px 600px;
+}
+ /* Style buttons */
+.btn {
+  background-color: hotpink;
+  border-color:deeppink;
+  float: right;
+  position: relative;
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: DeepPink;
+}
+a {
+	color: white;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: hotpink;
+  color: white;
+  padding: 15.5px 31px;
+  position: relative;
+  font-size: 16px;
+  border-color: deeppink;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: pink;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 26px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: lightpink}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown*/
+.dropdown:hover .dropbtn {
+	background-color: deeppink;
+}
+
