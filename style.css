@@ -16,19 +16,18 @@ body{
  /* Style buttons */
 .btn {
   background-color: hotpink;
-  border: none;
+  border-color:deeppink;
   float: right;
-  position: absolute;
-  left: 5rem;
+  position: relative;
   color: white;
-  padding: 12px 30px;
+  padding: 10px 30px;
   cursor: pointer;
   font-size: 20px;
 }
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: Pink;
+  background-color: DeepPink;
 }
 a {
 	color: white;
@@ -37,9 +36,10 @@ a {
 .dropbtn {
   background-color: hotpink;
   color: white;
-  padding: 16px;
+  padding: 12.5px 31px;
+  position: relative;
   font-size: 16px;
-  border: none;
+  border-color: deeppink;
   cursor: pointer;
 }
 
@@ -47,6 +47,7 @@ a {
 .dropdown {
   position: relative;
   display: inline-block;
+  float: right;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -54,8 +55,7 @@ a {
   display: none;
   position: absolute;
   background-color: pink;
-
-}  min-width: 160px;
+  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -80,3 +80,4 @@ a {
 .dropdown:hover .dropbtn {
 	background-color: deeppink;
 }
+
